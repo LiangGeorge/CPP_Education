@@ -1,0 +1,12 @@
+1. What is the difference between an interpreter and a compiler?
+An interpreter is associated with scripting languages in which the interpreter
+runs directly what is in the text file. Interpreters need to be present on the
+machine where the program script is on in order to run. However with languages
+that require a compiler, all you would need to do is compile and get an executable that is the result of machine interpretation of machine language.
+
+2. What does the linker do?
+When C++ files are compiled, object files are generated from the main file without conferring with code written in other files (dependencies). So while our current file is free of syntax errors, it doesnt mean that other files it depends on are free of errors. The linker just resolves things with the dependencies and generates an executable on successful linkage. 
+
+3. What are the steps in the normal development cycle?
+The steps are to create a text file with the correct extension, write your code, compile, debug if needed, and then test for runtime errors.
+

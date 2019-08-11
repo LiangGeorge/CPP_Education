@@ -27,6 +27,7 @@ int main(){
 
   //The std namespace has a static method called cout which takes in anything after "<<" for output
   //Note: Namespaces are used to organize code to prevent name collisions
-  std::cout << "Hello World! \n";
+  std::cout << "Hello World!" << std::endl;
   // "\n" is an Escape Sequence. This one in particular means "Insert a newline"
+  // endl is a function that appends a newline character and flushes the buffer for sure, ensuring that your output is printed. Be warned, spamming endl may be detrimental to performance.
 }

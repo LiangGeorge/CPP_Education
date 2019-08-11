@@ -1,0 +1,1 @@
+You can write "g++ -o hello hello.cpp" to immediately get the executable named hello.

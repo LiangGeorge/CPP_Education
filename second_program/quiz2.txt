@@ -1,0 +1,8 @@
+1. What is the problem in declaring Int main()? 
+
+Int is spelled as "int" in this case. You must always remember that C++ is case-sensitive. 
+
+2. Can comments be longer than one line?
+
+Yes! Comments can be longer than one line as long as you use "/*" (denoting the start of a comment) and 
+"*/" (denoting the end of a comment).

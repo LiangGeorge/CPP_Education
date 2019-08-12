@@ -9,6 +9,9 @@
 function calls that use it because this makes anything from std always visible. */
 
 //using namespace std;
+
+//you can alternatively restrict using namespace to a few functions as the following
+//using namespace std::cout;
 int main(){
   /****
   Braces are a good way to make where your function starts or ends. An alternate
